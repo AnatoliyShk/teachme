@@ -8,6 +8,9 @@
                     <router-link exact-active-class="active" to="/category" class="nav-item nav-link">Category</router-link>
                 </div>
             </div>
+            <div class="container mt-5">
+                <router-view></router-view>
+            </div>
         </nav>
     </main>
 </template>
